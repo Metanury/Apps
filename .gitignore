@@ -2,4 +2,10 @@
 # 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
 ################################################################################
 
-/Metanury.Apps/.vs/Metanury.Apps
+/Metanury.Apps/.vs
+/Metanury.Apps/EntityHelper/bin
+/Metanury.Apps/EntityHelper/obj
+/Metanury.Apps/Metanury.Apps.CryptoHelper/obj
+/Metanury.Apps/Metanury.Apps.EntityHelper/bin
+/Metanury.Apps/Metanury.Apps.EntityHelper/obj
+/Metanury.Apps/Metanury.Apps.Paging/obj
