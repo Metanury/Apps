@@ -1,4 +1,4 @@
-﻿namespace Metanury.Apps.CryptoHelper.Abstracts
+﻿namespace Metanury.Apps.CryptoHelper
 {
     public interface IOneWay
     {

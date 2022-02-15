@@ -1,5 +1,4 @@
-﻿using Metanury.Apps.CryptoHelper.Abstracts;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 namespace Metanury.Apps.CryptoHelper

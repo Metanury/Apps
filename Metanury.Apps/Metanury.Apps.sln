@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.EntityHelper", "Metanury.Apps.EntityHelper\Metanury.Apps.EntityHelper.csproj", "{E8AA3391-AC0F-496D-ADE6-6E4E007575DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.EntityHelper", "Metanury.Apps.EntityHelper\Metanury.Apps.EntityHelper.csproj", "{E8AA3391-AC0F-496D-ADE6-6E4E007575DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.CryptoHelper", "Metanury.Apps.CryptoHelper\Metanury.Apps.CryptoHelper.csproj", "{10B72D90-CF7B-49A2-88DC-D3B754B9ABA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.CryptoHelper", "Metanury.Apps.CryptoHelper\Metanury.Apps.CryptoHelper.csproj", "{10B72D90-CF7B-49A2-88DC-D3B754B9ABA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.Paging", "Metanury.Apps.Paging\Metanury.Apps.Paging.csproj", "{E50FBC67-A786-461D-8A9E-8A83AB90CBAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Paging", "Metanury.Apps.Paging\Metanury.Apps.Paging.csproj", "{E50FBC67-A786-461D-8A9E-8A83AB90CBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.Core", "Metanury.Apps.Core\Metanury.Apps.Core.csproj", "{19DEC2F9-5623-4477-BB1E-D9678C10555C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E50FBC67-A786-461D-8A9E-8A83AB90CBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50FBC67-A786-461D-8A9E-8A83AB90CBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50FBC67-A786-461D-8A9E-8A83AB90CBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
