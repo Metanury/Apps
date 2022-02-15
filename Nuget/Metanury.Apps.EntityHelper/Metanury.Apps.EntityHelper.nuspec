@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Metanury.Apps.EntityHelper</id>
+    <version>0.0.1</version>
+    <title>Metanury Apps EntityHelper</title>
+    <authors>Metanury</authors>
+    <owners>Parkheesung</owners>
+    <licenseUrl>http://www.metanury.com</licenseUrl>
+    <projectUrl>https://github.com/Metanury/Apps</projectUrl>
+    <iconUrl>http://www.metanury.com/Content/images/320x320_h_logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET Standard Library</description>
+    <releaseNotes>First Update</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>Metanury EntityHelper</tags>
+  </metadata>
+</package>
