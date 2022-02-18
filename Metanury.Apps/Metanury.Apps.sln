@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.CryptoHelper"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Paging", "Metanury.Apps.Paging\Metanury.Apps.Paging.csproj", "{E50FBC67-A786-461D-8A9E-8A83AB90CBAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.Core", "Metanury.Apps.Core\Metanury.Apps.Core.csproj", "{19DEC2F9-5623-4477-BB1E-D9678C10555C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Core", "Metanury.Apps.Core\Metanury.Apps.Core.csproj", "{19DEC2F9-5623-4477-BB1E-D9678C10555C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.Data", "Metanury.Apps.Data\Metanury.Apps.Data.csproj", "{BD959097-8F17-4717-85E2-6DB78377BA80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19DEC2F9-5623-4477-BB1E-D9678C10555C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD959097-8F17-4717-85E2-6DB78377BA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD959097-8F17-4717-85E2-6DB78377BA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD959097-8F17-4717-85E2-6DB78377BA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD959097-8F17-4717-85E2-6DB78377BA80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
