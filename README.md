@@ -21,3 +21,12 @@ Table을 Entity화 시킬때 필요한 라이브러리 모음입니다
   - AES (공개키 / 비공개키)
 
 ---
+
+## Data 
+
+Database와의 연결을 도와주는 라이브러리 모음입니다.
+  - ExtendSqlCommand SqlCommand의 Execute를 확장시켜 줍니다.
+  - ExtendCoreData 라이브러리내에서 자주 사용되는 Execute 형태를 미리 정의합니다.
+  - QueryUnit 동적 쿼리를 생성하기 위한 클래스
+
+---
