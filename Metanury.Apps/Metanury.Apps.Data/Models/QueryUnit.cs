@@ -221,6 +221,81 @@ namespace Metanury.Apps.Data
 
     public static class ExtendQueryUnit
     {
+        public static QueryUnit Select<T>(this T entity, Func<QueryUnit, QueryUnit> func = null) where T : IEntity
+        {
+            var query = new QueryUnit();
+            query.FromContainer = entity.TableName;
+            query.ActionMethodType = QueryUnit.ActionType.SELECT;
+            if (func != null)
+            {
+                return func.Invoke(query);
+            }
+            return query;
+        }
+
+        public static QueryUnit Update<T>(this T entity, Func<QueryUnit, QueryUnit> func = null) where T : IEntity
+        {
+            var query = new QueryUnit();
+            query.FromContainer = entity.TableName;
+            query.ActionMethodType = QueryUnit.ActionType.UPDATE;
+            if (func != null)
+            {
+                return func.Invoke(query);
+            }
+            return query;
+        }
+
+        public static QueryUnit Insert<T>(this T entity, Func<QueryUnit, QueryUnit> func = null) where T : IEntity
+        {
+            var query = new QueryUnit();
+            query.FromContainer = entity.TableName;
+            query.ActionMethodType = QueryUnit.ActionType.INSERT;
+            if (func != null)
+            {
+                return func.Invoke(query);
+            }
+            return query;
+        }
+
+        public static QueryUnit Delete<T>(this T entity, Func<QueryUnit, QueryUnit> func = null) where T : IEntity
+        {
+            var query = new QueryUnit();
+            query.FromContainer = entity.TableName;
+            query.ActionMethodType = QueryUnit.ActionType.DELETE;
+            if (func != null)
+            {
+                return func.Invoke(query);
+            }
+            return query;
+        }
+
+        public static QueryUnit List<T>(this T entity, Func<QueryUnit, QueryUnit> func = null) where T : IEntity
+        {
+            var query = new QueryUnit();
+            query.FromContainer = entity.TableName;
+            query.ActionMethodType = QueryUnit.ActionType.LIST;
+            if (func != null)
+            {
+                return func.Invoke(query);
+            }
+            return query;
+        }
+
+        public static QueryUnit Count<T>(this T entity, Func<QueryUnit, QueryUnit> func = null) where T : IEntity
+        {
+            var query = new QueryUnit();
+            query.FromContainer = entity.TableName;
+            query.ActionMethodType = QueryUnit.ActionType.COUNT;
+            if (func != null)
+            {
+                return func.Invoke(query);
+            }
+            return query;
+        }
+
+
+
+
         public static QueryUnit Select(this IEntity entity, Func<QueryUnit, QueryUnit> func = null)
         {
             var query = new QueryUnit();

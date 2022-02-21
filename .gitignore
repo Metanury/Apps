@@ -9,8 +9,10 @@
 /Metanury.Apps/Metanury.Apps.EntityHelper/bin
 /Metanury.Apps/Metanury.Apps.EntityHelper/obj
 /Metanury.Apps/Metanury.Apps.Paging/obj
-/Nuget/Metanury.Apps.EntityHelper/lib/netstandard2.0
+/Nuget/Metanury.Apps.EntityHelper/lib
 /Metanury.Apps/Metanury.Apps.Core/bin
 /Metanury.Apps/Metanury.Apps.Core/obj
 /Metanury.Apps/Metanury.Apps.CryptoHelper/bin
 /Metanury.Apps/Metanury.Apps.Data/obj
+/Metanury.Apps/Metanury.Apps.Data/bin
+/Metanury.Apps/Metanury.Apps.Paging/bin
