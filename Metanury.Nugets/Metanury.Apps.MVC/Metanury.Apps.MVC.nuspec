@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Metanury.Apps.MVC</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>MVC in Metanury.Apps standard Library</title>
     <authors>Metanury</authors>
     <owners>Parkheesung</owners>
@@ -24,6 +24,9 @@
 	<dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" />
 	<dependency id="Microsoft.AspNetCore.Mvc.Abstractions" version="2.2.0" />
 	<dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.2.5" />
+	<dependency id="MailKit" version="3.1.1" />
+	<dependency id="Newtonsoft.Json" version="13.0.1" />
+	<dependency id="NLog" version="4.7.14" />
 	</dependencies>
   </metadata>
 </package>
