@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Metanury.Apps.Core\Metanury.Apps.Core.csproj" />
+    <ProjectReference Include="..\Metanury.Apps.Data\Metanury.Apps.Data.csproj" />
+  </ItemGroup>
+
 </Project>

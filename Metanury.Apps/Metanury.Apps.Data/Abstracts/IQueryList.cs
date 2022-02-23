@@ -6,5 +6,10 @@
 
         int CurPage { get; set; }
 
+        string Serialize();
+
+        string toWhereString();
+
+        bool IsExistsWehre();
     }
 }
