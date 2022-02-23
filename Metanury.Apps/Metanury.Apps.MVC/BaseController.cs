@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.Extensions.Configuration;
 using System;
 
 namespace Metanury.Apps.MVC
@@ -9,6 +10,8 @@ namespace Metanury.Apps.MVC
     public class BaseController : Controller
     {
         protected IActionContextAccessor Accessor { get; set; }
+
+        protected IConfiguration Config { get; set; }
 
         public BaseController(IActionContextAccessor accessor) : base()
         {
@@ -36,7 +39,17 @@ namespace Metanury.Apps.MVC
             this.Accessor.ActionContext.HttpContext.Response.Cookies.Delete(key);
         }
 
-        public HtmlString WriteContent(string content, bool IsEnter = false)
+        protected virtual IConfigurationSection GetConfigSection(string sectionName)
+        {
+            return this.Config.GetSection(sectionName);
+        }
+
+        protected virtual string GetConfigValue(string sectionName)
+        {
+            return this.Config.GetSection(sectionName).Value;
+        }
+
+        public virtual HtmlString WriteContent(string content, bool IsEnter = false)
         {
             if (IsEnter)
             {
