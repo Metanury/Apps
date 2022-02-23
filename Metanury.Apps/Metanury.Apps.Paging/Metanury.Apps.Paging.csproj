@@ -1,12 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	  <PackageId>Metanury.Apps.Paging</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Parkheesung</Authors>
+	  <Company>Metanury</Company>
+	  <RepositoryUrl>https://github.com/Metanury/Apps</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Metanury.Apps.Core\Metanury.Apps.Core.csproj" />
-    <ProjectReference Include="..\Metanury.Apps.Data\Metanury.Apps.Data.csproj" />
+    <PackageReference Include="Metanury.Apps.Core" Version="1.0.0" />
+    <PackageReference Include="Metanury.Apps.Data" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
