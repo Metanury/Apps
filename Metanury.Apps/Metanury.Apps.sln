@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Data", "Metan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.File", "Metanury.Apps.File\Metanury.Apps.File.csproj", "{92F228C3-5550-4AA2-9AC2-EB32D435385A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.MVC", "Metanury.Apps.MVC\Metanury.Apps.MVC.csproj", "{D3FD0ADD-AC35-4DF9-8955-BB84268A2EE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FD0ADD-AC35-4DF9-8955-BB84268A2EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FD0ADD-AC35-4DF9-8955-BB84268A2EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FD0ADD-AC35-4DF9-8955-BB84268A2EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FD0ADD-AC35-4DF9-8955-BB84268A2EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
