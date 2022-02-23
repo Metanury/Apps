@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Paging", "Met
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Core", "Metanury.Apps.Core\Metanury.Apps.Core.csproj", "{19DEC2F9-5623-4477-BB1E-D9678C10555C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.Data", "Metanury.Apps.Data\Metanury.Apps.Data.csproj", "{BD959097-8F17-4717-85E2-6DB78377BA80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metanury.Apps.Data", "Metanury.Apps.Data\Metanury.Apps.Data.csproj", "{BD959097-8F17-4717-85E2-6DB78377BA80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metanury.Apps.File", "Metanury.Apps.File\Metanury.Apps.File.csproj", "{92F228C3-5550-4AA2-9AC2-EB32D435385A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BD959097-8F17-4717-85E2-6DB78377BA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD959097-8F17-4717-85E2-6DB78377BA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD959097-8F17-4717-85E2-6DB78377BA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F228C3-5550-4AA2-9AC2-EB32D435385A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
