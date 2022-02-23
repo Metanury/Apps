@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Metanury.Apps.CryptoHelper</id>
+    <version>1.0.0</version>
+    <title>CryptoHelper in Metanury.Apps standard Library</title>
+    <authors>Metanury</authors>
+    <owners>Parkheesung</owners>
+    <licenseUrl>https://github.com/Metanury</licenseUrl>
+    <projectUrl>https://github.com/Metanury/Apps</projectUrl>
+    <iconUrl>https://s.gravatar.com/avatar/d1559a7d1431389a32f3ede25571ed2e?s=80</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CryptoHelper : Standard Library in .Net Framework</description>
+    <releaseNotes>First Upload</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>Metanury Apps C# NetCore Standard CryptoHelper</tags>
+  </metadata>
+</package>

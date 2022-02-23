@@ -10,6 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Metanury.Apps.Core" Version="1.0.0" />
+    <PackageReference Include="Metanury.Apps.CryptoHelper" Version="1.0.0" />
+    <PackageReference Include="Metanury.Apps.Data" Version="1.0.0" />
+    <PackageReference Include="Metanury.Apps.EntityHelper" Version="1.0.0" />
+    <PackageReference Include="Metanury.Apps.File" Version="1.0.0" />
+    <PackageReference Include="Metanury.Apps.Paging" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />

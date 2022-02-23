@@ -20,3 +20,4 @@
 /Metanury.Apps/Metanury.Apps.File/bin
 /Metanury.Apps/Metanury.Apps.MVC/bin
 /Metanury.Apps/Metanury.Apps.MVC/obj
+*.nupkg
