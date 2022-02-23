@@ -9,6 +9,21 @@ namespace Metanury.Apps.Data
     {
 
         #region [ Execute ]
+        public static DataTable ExecuteQuery(this SqlCommand cmd, string query)
+        {
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = query;
+            return cmd.ExecuteTable();
+        }
+
+        public static DataTable ExecuteEntity(this SqlCommand cmd, string tableName)
+        {
+            string query = $"select * from [{tableName}] with (nolock)";
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = query;
+            return cmd.ExecuteTable();
+        }
+
         public static DataTable ExecuteTable(this SqlCommand cmd)
         {
             var result = new DataTable();
